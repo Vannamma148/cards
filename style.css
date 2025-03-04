@@ -17,6 +17,10 @@ a{
     border: 1px solid #ffffff;
     color: white;
 }
+.card2 a:hover {
+    background-color: #48b1bf;
+    color: #ffffff;
+}
 .link{
     text-align: center;
     background-color: rgb(0, 0, 0);

@@ -7,6 +7,11 @@ body{
     font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-image: url(https://images.unsplash.com/photo-1740166260067-9338269b9227?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D);
+  background-repeat: no-repeat;
+  /* height: 100vh;
+  width: 100vw; */
+  background-size: cover;
 
 }
 a{    
@@ -15,11 +20,7 @@ a{
     margin: 10px 0;
     padding: 10px 10px;
     border: 1px solid #ffffff;
-    color: white;
-}
-.card2 a:hover {
-    background-color: #48b1bf;
-    color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 .link{
     text-align: center;
@@ -37,7 +38,7 @@ a{
     border-radius: 22px;
 }
 a:hover{
-    background-color: rgb(255, 0, 98);
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 h1, h2, h3, h4, h5, h6,p {
@@ -57,9 +58,11 @@ p{
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-   
+   border-radius: 20px;
     margin: 10px auto;
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    backdrop-filter: blur(4px);
+    background-color: rgba(24, 25, 26, 0.151);
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
 }
 
 
@@ -93,39 +96,19 @@ img{
 }
 
 .card2{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 35%, rgba(0,212,255,1) 100%);
+   
+    
+background: linear-gradient(90deg, rgba(2, 0, 36, 0.336) 0%, rgba(111, 114, 114, 0.26) 35%, rgba(125, 133, 134, 0.13) 100%);
 }
 
-/* card3 */
-/* .card3{
-    height: 200px;
-    width: 900px;
-    margin: auto;
-}
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   padding: 1rem;
-    background: linear-gradient(to right, #240b36, #c31432);
-    color: white;
-    text-align: center;
-}
-.main a{
-    background-color: #c31432;
-}
-.main a:hover{
-    background-color: #240b36;
-    color: #ffffff;
-} */
 
 .card3{
     margin:20px auto;
     height: 650px;
     width: 900px;
-    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     border-radius: 20px;
+    backdrop-filter: blur(3px);
+    background: linear-gradient(to right, #ca7950, #fdc63027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 .main
@@ -137,7 +120,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 35%, rgb
     text-align: center;
 }
 .main a:hover{
-    background: #FDC830;
+    background: #fdc63073;
 }
 
 .parent{
@@ -149,9 +132,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 35%, rgb
 /* card 4 */
 .card4{
     margin: auto;
+    backdrop-filter:blur(2px);
     background: #06beb6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #48b1bf, #06beb53f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 color: #ffffff;
 height: 650px;
